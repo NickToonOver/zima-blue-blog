@@ -3,18 +3,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Raleway", sans-serif;
 }
 
 body {
   background: rgb(105, 175, 191);
-  background: linear-gradient(
-    0deg,
-    rgba(105, 175, 191, 0.6449930313922444) 0%,
-    rgba(152, 201, 194, 0.5553571770505077) 50%,
-    rgba(180, 217, 196, 1) 100%
-  );
-
   line-height: 1.4em;
   font-size: 62.5%;
 }
@@ -28,7 +20,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -504,3 +496,9 @@ ul a {
   text-align: center;
   font-weight: 900;
 }
+
+
+
+/*  */
+
+
