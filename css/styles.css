@@ -317,7 +317,7 @@ ul a {
 }
 
 .news-image {
-  border: #b4d9c4 solid 3px;
+  border: #b4d9c4 solid 1px;
   opacity: 0.5;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -497,8 +497,182 @@ ul a {
   font-weight: 900;
 }
 
-
-
 /*  */
 
+.logo {
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
 
+.jumbotron {
+  background-color: #b4d9c4;
+}
+
+.title-zima {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.box-pod {
+  background-color: #b4d9c4;
+}
+
+.card-content {
+  padding: 30px 0 30px 30px;
+  font-size: 1rem;
+}
+
+.m-podcast {
+  padding: 70px 0;
+}
+
+.footer-area {
+  padding: 100px;
+}
+
+.texto-sombreado {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* CARDS CONTENIDO */
+
+.card-post {
+  background: blanchedalmond;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.card-post__hero {
+  background-size: cover;
+  border-bottom: 4px solid #69afbf;
+  height: 200px;
+}
+
+.card-post__category {
+  top: 185px;
+  right: 10px;
+  height: 24px;
+}
+
+.card-post__category a {
+  top: 0;
+  z-index: 2;
+  text-decoration: none;
+  background: #69afbf;
+  border-radius: 17px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 18px;
+  margin-left: 30px;
+  padding: 0 12px;
+  transition: background-color 0.5s ease, box-shadow 0.3s ease,
+    transform 0.2s ease;
+}
+
+.card-post__category a:hover {
+  animation: bounceShadow 1s linear infinite;
+  background: #69afbf;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-post__category a:active {
+  transform: scale(0.85);
+}
+
+.card-post__category span {
+  color: #0d0d0d;
+}
+
+.meta p {
+  font-size: 10px;
+}
+
+span.avatar1 {
+  background: #69afbf;
+  background-image: url(https://s3.us-east-2.amazonaws.com/web-experiments/exp-card-splatoon2-inkling.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.btn-group a {
+  font-size: 26px;
+  color: #ccc;
+}
+.btn-group .btn-facebook:hover {
+  color: #3b5998;
+}
+.btn-group .btn-twitter:hover {
+  color: #55acee;
+}
+.btn-group .btn-google:hover {
+  color: #dd4b39;
+}
+
+.hero {
+  padding: 3.5rem 0;
+  background-color: black;
+}
+
+.widget {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+.widget-content {
+  padding: 30px 0 30px 30px;
+  line-height: 1.2;
+}
+
+.item-box {
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.ordinal {
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  font-size: 40px;
+  color: #ccc;
+  margin: 6px 12px;
+}
+
+.item-box__content {
+  margin: 18px 0 12px 48px;
+}
+
+/* MEDIAQUERIES */
+
+@media (min-width: 1028px) {
+  .card-post {
+    max-width: 750px;
+  }
+
+  .card-post__hero {
+    height: 350px;
+  }
+
+  .card-post__category {
+    top: 335px;
+  }
+}
