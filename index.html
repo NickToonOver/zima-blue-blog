@@ -1,260 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/92c32a854c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto&display=swap"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous">
+  </script>
 
-    <title>Zima Blue | Novedades tecnológicas</title>
-  </head>
+  <title>Zima Blue, novedades tecnológicas</title>
 
-<body>
+</head>
 
-  <!-- TOP -->
-  <header class="blog__header">
-    <div class="logo">
-      <a href="index.html"><h2><span>ZIMA</span>BLUE</h2></a>
-    </div>
-  </header>
-  <!-- TOP -->
+<body >
+  
+    <!-- NAVEGACIÓN -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="logo href="#"><span>ZIMA</span>BLUE</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
 
-<!-- MENÚ -->
-  <nav class="navegacion">
-    <ul>
-      <li class="nav_menu"><a href="novedades.html">Novedades</a></li>
-      <li class="nav_menu"><a href="cursos.html">Cursos</a></li>
-      <li class="nav_menu"><a href="analisis.html">Análisis</a></li>
-      <li class="nav_menu"><a href="podcasts.html">Podcasts</a></li>
-      <li class="nav_menu"><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
-<!-- MENÚ -->
+            <li class="nav-item">
+              <a class="nav-link" href="podcasts.html">Podcast</a>
+            </li>
 
-
-<!-- CUERPO BLOG INICIO -->
-
-<section class="container-hero">
-  <div class="hero-section">
-
-<!-- HERO TOP -->
-
-  <!-- Contenedor superior -->
-      <div class="container-top">
-        <div class="news-top">
-          <div class="image-top">
-            <a href="#"><img class="news-image" src="/imagenes/zimablue.jpg" alt="imagen top"></a>
-            <h4 class="title-top">¡Bienvenidos a ZIMA BLUE!</h4>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
           </div>
         </div>
-      </div>
-  <!-- Fin Contenedor superior -->
+      </nav>
+    <!-- FIN NAVEGACION  -->
+
+  <!-- HERO -->
+  <div class="hero ">
+    <div class="container px-sm-5">
+      <div class="row">
+
+        <div class="col-lg-8 col-sm-12">
+          <div class="position-relative">
+              <a href=""><img src="/imagenes/zimablue.jpg" class="img-fluid news-image" alt="zimablue"></a>
+            <div class="feature-body position-absolute bottom-0 start-0 mx-3 mx-lg-4 ">
+                <div class="badge bg-primary text-wrap my-sm-3">Blog</div>
+                <h4 class="text-primary text-uppercase fw-bold texto-sombreado">¡Bienvenidos a Zima Blue!</h4>
+                <p class="text-white texto-sombreado 	d-none d-md-block d-lg-none" > » Un pequeño espacio creado para conocer las novedades del mundo IT.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 my-auto">
+          <div class="my-1 position-relative"> 
+            <a href="#"><img src="/imagenes/imagen2.jpg" class="img-fluid news-image" alt=""></a>
+            <div class="position-absolute bottom-0 start-3 texto-sombreado text-white fw-bold m-sm-3 m-1">
+              <div class="badge bg-primary text-wrap my-sm-3">Desarrollo web</div>
+              <p>¿Cómo iniciarse en el desarrollo web?</p>
+
+            </div>
+          </div>
+          
+          <div class="my-1 position-relative">
+            <a href="#"><img src="/imagenes/imagen4.jpg" class="img-fluid news-image"  alt=""></a>
+            <div class="position-absolute bottom-0 start-3 texto-sombreado text-white fw-bold m-sm-3 m-1">
+              <div class="badge bg-primary text-wrap my-sm-3">Móviles</div>
+              <p>¿Cuánto dinero puede ganar una aplicación móvil?</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>    
+    </div>
 
 
-    <div class="hero-bottomnews">
-      <div class="news-box">
-        <input type="image" class="news-image" src="/imagenes/imagen1.jpeg">
-        <h4 class="titulo-bottomnews">La profesión del gamer: de hobby a medio de vida.</h4>
-        <p class="texto-bottomnews">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eos.</p>
+  </div>
+  <!-- FIN HERO -->
+
+
+  <!-- BLOG PRINCIPAL -->
+
+
+  <div class="container-fluid">
+    <div class="row my-5">
+        <div class="col-md-9 col-12 p-0">
+          <div class="container">
+
+
+            <!-- CONTENIDO -->
+            <div class="card-post position-relative">
+              <div class="card-post__hero" style="background-image: url(/imagenes/imagen5.jpg);"></div>
+              <div class="card-post__category  position-absolute">
+                <a href="#" class="fw-bold lh-1">Cyberseguridad</a>
+              </div>
+              <div class="card-post__content p-2 p-md-1 m-3">
+                <h4 class="fw-bold">Accenture es víctima de un ataque del ransomware Lockbit 2.0</h4>
+                <div class="meta d-flex align-items-end">
+                  <a href="#"><span class="avatar1"></span></a>
+                  <p class="text-muted ms-1">Creado por Jorgy Sandoval / 10 de Agosto, 2021</p>
+              </div>
+              
+                <p class="mx-auto px-1">La banda criminal detrás del ransomware Lockibot 2.0, cuya actividad viene aumentando, pidio un rescate y amenaza con publicar en su sitio web la información robada.</p>
+              </div>
+              <div class="card-post__footer d-flex justify-content-between align-items-center mx-3 border-top">
+                <a href="#" class="btn btn-primary ms-3"><span class="">Leer más</span></a> 
+                
+                <div class="btn-group">
+                  <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Compartir en Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Compartir en Twitter"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Compartir en Google"><i class="fa fa-google"></i></a>
+              </div>
+                
+              </div>
+            </div>
+            
+
+            <!--  -->
+
+            <div class="card-post position-relative">
+              <div class="card-post__hero" style="background-image: url(https://foundersguide.com/wp-content/uploads/2020/11/programming-1.jpg);"></div>
+              <div class="card-post__category  position-absolute">
+                <a href="#" class="fw-bold lh-1">Desarrollo web</a>
+              </div>
+              <div class="card-post__content p-2 p-md-1 m-3">
+                <h4 class="fw-bold">¿Cómo aprender a programar desde cero?</h4>
+                <div class="meta d-flex align-items-end">
+                    <a href="#"><span class="avatar1"></span></a>
+                    <p class="text-muted ms-1">Creado por Jorgy Sandoval / 10 de Agosto, 2021</p>
+                </div>
+              
+                <p class="mx-auto px-1">¿Se te hace dificil aprender a programar? Seguramente estas aprendiendo un lenguaje en lugar de aprender a programar. En este artículo te enseñamos que cualquiera puede programar si es que aprende correctamente.</p>
+              </div>
+              <div class="card-post__footer d-flex justify-content-between align-items-center">
+                <a href="#" class="btn btn-primary btn-lg ms-3"><span class="">Leer más</span></a> 
+                
+                <div class="btn-group">
+                  <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Compartir en Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Compartir en Twitter"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Compartir en Google"><i class="fa fa-google"></i></a>
+              </div>
+                
+              </div>
+            </div>
+
+            <!--  -->
+
+            <div class="card-post position-relative">
+              <div class="card-post__hero" style="background-image: url(https://media-exp3.licdn.com/dms/image/C561BAQGPKNpCqOlXBw/company-background_10000/0/1577953380922?e=2159024400&v=beta&t=ms7tX7kRd6kuoXoKIh9qtfWL-R6V3kD7CwPK4BNs5g4);"></div>
+              <div class="card-post__category  position-absolute">
+                <a href="#" class="fw-bold lh-1">Inteligencia artificial</a>
+              </div>
+              <div class="card-post__content p-2 p-md-1 m-3">
+                <h4 class="fw-bold">El mito de la singularidad o por qué la inteligencia artificial no va a heredar la Tierra</h4>
+                <div class="meta d-flex align-items-end">
+                    <a href="#"><span class="avatar1"></span></a>
+                    <p class="text-muted ms-1">Creado por Jorgy Sandoval / 10 de Agosto, 2021</p>
+                </div>
+              
+                <p class="mx-auto">Entonces, ¿no parece algo casi inevitable que la inteligencia artificial supere al ser humano y lleguemos a la singularidad? </p>
+              </div>
+
+              <div class="card-post__footer d-flex justify-content-between align-items-center">
+                <a href="#" class="btn btn-primary btn-lg ms-3"><span class="">Leer más</span></a> 
+                
+                <div class="btn-group">
+                  <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Compartir en Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Compartir en Twitter"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Compartir en Google"><i class="fa fa-google"></i></a>
+              </div>
+                
+              </div>
+            </div>
+
+            <!--  -->
+
+            <div class="card-post position-relative">
+              <div class="card-post__hero" style="background-image: url(https://redboing.com/wp-content/uploads/2021/02/twitter.png);"></div>
+              <div class="card-post__category  position-absolute">
+                <a href="#" class="fw-bold lh-1">Tecno</a>
+              </div>
+              <div class="card-post__content p-2 p-md-1 m-3">
+                <h4 class="fw-bold">Twitter actualiza sus DM con una opción para enviar el mismo mensaje a 20 personas diferentes</h4>
+                <div class="meta d-flex align-items-end">
+                    <a href="#"><span class="avatar1"></span></a>
+                    <p class="text-muted ms-1">Creado por Jorgy Sandoval / 8 de Agosto, 2021</p>
+                </div>
+              
+                <p class="mx-auto px-1">La compañía dijo tener “un intercambio de tweets más fácil, una mejor navegación cuando estamos en una conversación y más”</p>
+              </div>
+              <div class="card-post__footer d-flex justify-content-between align-items-center">
+                <a href="#" class="btn btn-primary btn-lg ms-3"><span class="">Leer más</span></a> 
+                
+                <div class="btn-group">
+                  <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Compartir en Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Compartir en Twitter"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Compartir en Google"><i class="fa fa-google"></i></a>
+              </div>
+                
+              </div>
+            </div>
+
+            <!--  -->
+
+            <div class="card-post position-relative">
+              <div class="card-post__hero" style="background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/08/skyrim-2443995.jpg?itok=Gb8JdfN5);"></div>
+              <div class="card-post__category  position-absolute">
+                <a href="#" class="fw-bold lh-1">Gaming</a>
+              </div>
+              <div class="card-post__content p-2 p-md-1 m-3">
+                <h4 class="fw-bold">The Elder Scrolls V Skyrim: Anniversary Edition anunciado con contenido creado por los fans</h4>
+                <div class="meta d-flex align-items-end">
+                    <a href="#"><span class="avatar1"></span></a>
+                    <p class="text-muted ms-1">Creado por Jorgy Sandoval / 8 de Agosto, 2021</p>
+                </div>
+              
+                <p class="mx-auto px-1">The Elder Scrolls V Skyrim Anniversary Edition llegará en noviembre por el décimo aniversario del RPG de Bethesda, con contenido creado por fans y actualización gratis intergeneracional.</p>
+              </div>
+              <div class="card-post__footer d-flex justify-content-between align-items-center">
+                <a href="#" class="btn btn-primary btn-lg ms-3"><span class="">Leer más</span></a> 
+                
+                <div class="btn-group">
+                  <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Compartir en Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Compartir en Twitter"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Compartir en Google"><i class="fa fa-google"></i></a>
+              </div>
+                
+              </div>
+            </div>
+
+            <!--  -->
+
+            <div class="card-post position-relative">
+              <div class="card-post__hero" style="background-image: url(https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2015/12/15/14502007477023.jpg);"></div>
+              <div class="card-post__category  position-absolute">
+                <a href="#" class="fw-bold lh-1">Criptomonedas</a>
+              </div>
+              <div class="card-post__content p-2 p-md-1 m-3">
+                <h4 class="fw-bold">¿Quieres estudiar Blockchain desde cero? Aquí te decimos como empezar</h4>
+                <div class="meta d-flex align-items-end">
+                    <a href="#"><span class="avatar1"></span></a>
+                    <p class="text-muted ms-1">Creado por Jorgy Sandoval / 10 de Agosto, 2021</p>
+                </div>
+              
+                <p class="mx-auto px-1">¿Se te hace dificil aprender a programar? Seguramente estas aprendiendo un lenguaje en lugar de aprender a programar. En este artículo te enseñamos que cualquiera puede programar si es que aprende correctamente.</p>
+              </div>
+              <div class="card-post__footer d-flex justify-content-between align-items-center">
+                <a href="#" class="btn btn-primary btn-lg ms-3"><span class="">Leer más</span></a> 
+                
+                <div class="btn-group">
+                  <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Compartir en Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Compartir en Twitter"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Compartir en Google"><i class="fa fa-google"></i></a>
+              </div>
+                
+              </div>
+            </div>
+
+            <!--  -->
+
+      
+          </div>
+        </div>
+      <!-- FIN COLUMNA -->
+
+      <!-- SIDEBAR -->
+      <div class="col-md-3 col-12">
+        <div class="container m-0 p-0 sidebar">
+          
+          <!-- About Zima -->
+              <div class="widget mt-3">
+                <div class="p-3">
+                  <span class="h5">Acerca de Zima Blue</span>
+                </div>
+                <div class="widget-content text-muted border border-end-0">
+                  <p>Un pequeño blog de noticias donde podés encontrar novedades tecnológicas, gaming y el maravilloso mundo del desarrollo web y la programación en general. </p>
+                </div>
+              </div>
+          <!-- Fin Zima -->
+
+          <!-- Síguenos -->
+
+          <div class="p-1">
+              
+            <div class="widget">
+              <div class="container  border border-end-0">
+                <p class="my-auto text-muted">Siguenos</p>
+                <a class="btn btn-social-icon btn-twitter">
+                  <span class="fa fa-twitter"></span>
+                </a>
+                <a class="btn btn-social-icon btn-facebook">
+                  <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn btn-social-icon btn-linkedin">
+                  <span class="fa fa-linkedin"></span>
+                </a>
+                <a class="btn btn-social-icon btn-github">
+                  <span class="fa fa-github"></span>
+                </a>
+
+                <a class="btn btn-block btn-social btn-instagram">
+                  <span class="fa fa-instagram">
+                </a>
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- Fin síguenos -->
+
+
+
+        <!-- PRINCIPALES NOTICIAS -->
+              <div class="widget">
+                <div class="py-3">
+                    <div class="p-3">
+                      <span class="fs-5">Lo más relevante</span>
+                    </div>
+                  <nav>
+                    <ol class="p-0 m-0 ">
+                      <li class="item-box">
+                        <a href="#" class="text-decoration-none">
+                          <span class="ordinal">1</span>
+                          <div class="item-box__content text-muted">
+                            "Microsoft 365 encarecerá sus tarifas para 2022, y será el mayor aumento de los últimos diez años: estos son los nuevos precios"
+                          </div>
+                        </a>
+                      </li>
+                      <li class="item-box">
+                        <a href="#" class="text-decoration-none">
+                          <span class="ordinal">2</span>
+                          <div class="item-box__content text-muted">
+                            "Por qué Patreon no podrá recibir a los creadores de publicaciones sexualmente explícitas de OnlyFans"
+                          </div>
+                        </a>
+                      </li>
+                      <li class="item-box">
+                        <a href="#" class="text-decoration-none">
+                          <span class="ordinal">3</span>
+                          <div class="item-box__content text-muted">
+                            "En TikTok rechazan a un hombre que colecciona huesos humanos"
+                          </div>
+                        </a>
+                      </li>
+                      <li class="item-box">
+                        <a href="#" class="text-decoration-none">
+                          <span class="ordinal">4</span>
+                          <div class="item-box__content text-muted">
+                            "The Elder Scrolls V Skyrim: Anniversary Edition anunciado con contenido creado por los fans"
+                          </div>
+                        </a>
+                      </li>
+                      <li class="item-box">
+                        <a href="#" class="text-decoration-none">
+                          <span class="ordinal">5</span>
+                          <div class="item-box__content text-muted">
+                            "El mito de la singularidad o por qué la inteligencia artificial no va a heredar la Tierra"
+                          </div>
+                        </a>
+                      </li>
+                    </ol>
+                  </nav>
+
+
+
+                  
+                </div>
+              </div>
+
+        <!-- FIN PRINCIPALES NOTICIAS -->
+
+        <!-- PODCASTS -->
+
+
+
+        <!-- FIN PODCASTS -->
+
+              
+              
+
+
+
+
+
+
+
+              
+        </div>
+
+
+
+
+    
+
+
+
       </div>
-      <div class="news-box">
-        <input type="image" class="news-image" src="/imagenes/imagen1.jpeg">
-        <h4 class="titulo-bottomnews">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-        <p class="texto-bottomnews">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eos.</p>
-      </div>
+      <!-- FIN SIDEBAR -->
+
+
+
+
+    <!-- FOOTER  -->
+    <footer class="footer-area bg-dark mt-5">
+        <div class="row">
+          <div
+            class="
+              col-12 col-md-4
+              d-flex
+              flex-column
+              align-items-center
+              text-light
+            "
+          >
+            <h2 class="text-uppercase text-bold">ZimaBlue</h2>
+            <p>Todos los derechos reservados, 2021.</p>
+            <p>Una página creada por Jorgy Sandoval</p>
+          </div>
+          <div class="col-12 col-md-4"></div>
+          <div class="col-12 col-md-4"></div>
+        </div>
+    </footer>
     </div>
   </div>
-</section>
-<!-- FIN HERO -->
+
+  <!-- FIN FOOTER -->
 
 
-    <div class="contenedor_blog">
-      <div class="maincontainer">
-        <div class="header-blog">
-          <p class="header-blog__texto">Lo último</p>
-        </div>
 
-        <section class="contenedor-article">
-            <div class="entrada-row">
-                <div class="entrada-principal">
-                  <div class="entrada-titulo">
-                    <a href="#">¿Cuál es la mejor forma de aprender HTML?: Te lo comentamos aquí.</a>
-                  </div>
-                  <div class="entrada_enlaces">
-                    <a href="#"" >HTML & CSS</a>
-                  </div>
-                  <div class="entrada-info">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id itaque dolorem quae recusandae, illo tenetur ipsum praesentium ullam nam facere. Pariatur, labore excepturi modi perspiciatis, atque eligendi delectus deserunt est sed facere minima distinctio, quos repudiandae. <a href="#" class="readmore">Leer más»</a>
-                     </p>
-                   </div>
-                  <div class="box-date">
-                    <div class="fecha"><i class="fas fa-calendar-minus"></i> Hace 30 minutos </div>
-                    <div class="autor"><i class="far fa-user"></i>    Jorgy Alfredo Sandoval</div>
-                    <div class="especialidad"><i class="fab fa-dev"></i> Web Developer Trainee</div>  
-                  </div>
-                </div>
-                <div class="entrada-imagen">
-                   <img src="/imagenes/imagen2.jpg" alt="">
-                </div>
-            </div>
-          </section>
 
-          <section class="contenedor-article">
-            <div class="entrada-row">
-                <div class="entrada-principal">
-                  <div class="entrada-titulo">
-                    <a href="#">¿Cuál es la mejor forma de aprender HTML?: Te lo comentamos aquí.</a>
-                  </div>
-                  <div class="entrada_enlaces">
-                    <a href="#">HTML & CSS</a>
-                  </div>
-                  <div class="entrada-info">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id itaque dolorem quae recusandae, illo tenetur ipsum praesentium ullam nam facere. Pariatur, labore excepturi modi perspiciatis, atque eligendi delectus deserunt est sed facere minima distinctio, quos repudiandae. Accusantium sunt voluptatibus amet!</p>
-                   </div>
-                  <div class="box-date">
-                    <div class="fecha"><i class="fas fa-calendar-minus"></i> Hace 30 minutos </div>
-                    <div class="autor"><i class="far fa-user"></i>    Jorgy Alfredo Sandoval</div>
-                    <div class="especialidad"><i class="fab fa-dev"></i> Web Developer Trainee</div>  
-                  </div>
-                </div>
-                <div class="entrada-imagen">
-                   <img src="/imagenes/imagen3.jpg" alt="">
-                </div>
-            </div>
-          </section>
 
-          <section class="contenedor-article">
-            <div class="entrada-row">
-                <div class="entrada-principal">
-                  <div class="entrada-titulo">
-                    <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur soluta architecto dolorem?</a>
-                  </div>
-                  <div class="entrada_enlaces">
-                    <a href="#"">JAVASCRIPT</a>
-                  </div>
-                  <div class="entrada-info">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id itaque dolorem quae recusandae, illo tenetur ipsum praesentium ullam nam facere.   </p>
-                   </div>
-                  <div class="box-date">
-                    <div class="fecha"><i class="fas fa-calendar-minus"></i> Hace 30 minutos </div>
-                    <div class="autor"><i class="far fa-user"></i>    Jorgy Alfredo Sandoval</div>
-                    <div class="especialidad"><i class="fab fa-dev"></i> Web Developer Trainee</div>  
-                  </div>
-                </div>
-                <div class="entrada-imagen">
-                   <img src="./imagenes/imagen4.jpg" alt="">
-                </div>
-            </div>
-          </section>
 
-          <section class="contenedor-article">
-            <div class="entrada-row">
-                <div class="entrada-principal">
-                  <div class="entrada-titulo">
-                    <a href="#">Nuestras recomendaciones para permanecer siempre protegido en la web</a>
-                  </div>
-                  <div class="entrada_enlaces">
-                    <a href="#"">CYBER SEGURIDAD</a>
-                  </div>
-                  <div class="entrada-info">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id itaque dolorem quae recusandae, illo tenetur ipsum praesentium ullam nam facere.</p>
-                   </div>
-                  <div class="box-date">
-                    <div class="fecha"><i class="fas fa-calendar-minus"></i> Hace 5 días </div>
-                    <div class="autor"><i class="far fa-user"></i>    Jorgy Alfredo Sandoval</div>
-                    <div class="especialidad"><i class="fab fa-dev"></i> Web Developer Trainee</div>  
-                  </div>
-                </div>
-                <div class="entrada-imagen">
-                   <img src="./imagenes/imagen5.jpg" alt="">
-                </div>
-            </div>
-          </section>
-        </div>
-        
 
-        <!-- BARRAL LATERAL -->
-    <section class="sidebar">
-      <div class="container-sidebar">
-        <div class="proximos-podcasts">
-          <h3><i class="fas fa-calendar"></i>Próximos Podcasts</h3>
-            <ul>
-              <li class="podcast">
-                <div class="fecha-icono">
-                  <i class="fas fa-podcast fa-4x"></i>
-                </div>
-                <div class="fecha-texto">24
-                  <span>Julio</span>
-                </div>
-                <div class="nombre-pod">
-                  <span>La importancia de ser autodidacta en Programación. </span>
-                </div>
-              </li> 
-            </ul>
 
-            <ul>
-              <li class="podcast">
-                <div class="fecha-icono">
-                  <i class="fas fa-podcast fa-4x"></i>
-                </div>
-                <div class="fecha-texto">17
-                  <span>Julio</span>
-                </div>
-                <div class="nombre-pod">
-                  <span> Crea tus propios efectos de sonido con Arduino </span>
-                </div>
-              </li> 
-            </ul>
 
-            <ul>
-              <li class="podcast">
-                <div class="fecha-icono">
-                  <i class="fas fa-podcast fa-4x"></i>
-                </div>
-                <div class="fecha-texto">10
-                  <span>Julio</span>
-                </div>
-                <div class="nombre-pod">
-                  <span> Entrevista a Juan Manuel de Rosas, fundador de MAKDIG </span>
-                </div>
-              </li> 
-            </ul>
-          </div> 
-        </div>
-      </div>
-    </section>
- <!-- FIN BARRA LATERAL -->
-
-    
-    
-    
   
-  
-  
-        </div>    
- 
-
-
-
-<!-- CUERPO BLOG FINAL -->
-
-
-
-<!-- PIE DE PÁGINA -->
-<div class="footer">
-  <footer class="pie-pagina">
-    <div class="logo">
-      <h2><span>ZIMA</span>BLUE</h2></a>
-    </div>
-    <p>Todos los derechos reservados. 2021</p>
-  </footer>
-</div>
-<!-- PIE DE PAGINA FINAL -->
-
-  </body>
-
+</body>
 </html>
