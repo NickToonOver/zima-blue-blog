@@ -526,7 +526,7 @@ ul a {
   font-size: 1rem;
 }
 
-.m-podcast {
+.c-zima {
   padding: 70px 0;
 }
 
@@ -661,14 +661,14 @@ span.avatar1 {
   margin: 18px 0 12px 48px;
 }
 
-.text-redes{
+.text-redes {
   font-size: 15px;
-  
 }
 
-
-
-
+.article-content {
+  padding: 30px 10px;
+  line-height: 1.4;
+}
 
 /* MEDIAQUERIES */
 
@@ -683,5 +683,10 @@ span.avatar1 {
 
   .card-post__category {
     top: 335px;
+  }
+
+  .article-content {
+    padding: 30px 90px;
+    line-height: 1.5;
   }
 }
