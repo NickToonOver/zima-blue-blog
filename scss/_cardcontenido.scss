@@ -95,37 +95,6 @@ ul a {
   height: auto;
 }
 
-/* FOOTER */
-
-.footer {
-  display: flex;
-  align-items: center;
-  background: black;
-  height: 120px;
-  border-top: 2px solid rgba(0, 0, 0, 0.24);
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  font-size: 1.2rem;
-  color: white;
-  line-height: 2rem;
-  margin-top: 3rem;
-}
-
-.pie-pagina {
-  margin-left: 30px;
-}
-
-.box-date {
-  margin: 30px;
-  display: flex;
-  line-height: 1rem;
-  justify-content: space-around;
-  font-size: 13px;
-  color: rgb(0, 0, 0);
-}
-
-/*  */
 
 .header-blog {
   text-align: left;
