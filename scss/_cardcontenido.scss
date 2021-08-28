@@ -1,0 +1,427 @@
+.navegacion {
+  width: 100%;
+  background: #69afbf;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-weight: 300;
+  text-align: center;
+}
+
+ul a {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 50px;
+}
+
+.nav_menu {
+  display: inline-block;
+  padding: 10px;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.nav_menu:hover {
+  background: #b4d9c4;
+}
+
+.contenedor_blog {
+  display: flex;
+  margin: 30px auto;
+  max-width: 1900px;
+  padding: 30px;
+  position: relative;
+}
+
+.contenedor-article {
+  background: white;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  padding: 1rem;
+  height: 20rem;
+  border-top: 1 solid #e9e9e9;
+  margin: 20px 30px 1px 80px;
+}
+
+.entrada-row {
+  display: flex;
+  align-items: center;
+}
+
+.entrada-info {
+  font-size: 20px;
+  line-height: 22px;
+  text-align: justify;
+  margin: 0 30px;
+}
+
+.entrada-principal {
+  width: 60%;
+}
+
+.entrada-imagen {
+  width: 40%;
+}
+
+.entrada-titulo {
+  line-height: 1.3rem;
+  margin: 1rem 30px 0 30px;
+}
+
+.entrada-titulo a {
+  text-decoration: none;
+  font-size: 27px;
+  color: black;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.entrada-titulo a:hover {
+  color: #f24b0f;
+}
+
+.entrada_enlaces {
+  font-size: 15px;
+  margin: 10px 30px;
+}
+
+.entrada-imagen img {
+  width: 500px;
+  height: auto;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  align-items: center;
+  background: black;
+  height: 120px;
+  border-top: 2px solid rgba(0, 0, 0, 0.24);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.2rem;
+  color: white;
+  line-height: 2rem;
+  margin-top: 3rem;
+}
+
+.pie-pagina {
+  margin-left: 30px;
+}
+
+.box-date {
+  margin: 30px;
+  display: flex;
+  line-height: 1rem;
+  justify-content: space-around;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+}
+
+/*  */
+
+.header-blog {
+  text-align: left;
+}
+
+.header-blog__texto {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px;
+  margin-left: 80px;
+  color: rgb(161, 149, 226);
+}
+
+.maincontainer {
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+}
+
+/* BARRA LATERAL*/
+
+.sidebar {
+  position: relative;
+  margin: 70px auto 10px 0;
+  width: 25%;
+}
+
+.container-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.proximos-podcasts h3 {
+  font-size: 25px;
+  margin: 1rem auto 2rem 1rem;
+}
+
+.podcast {
+  position: relative;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: #b4d9c4 solid 3px;
+}
+
+.fecha-icono {
+  margin-left: 20px;
+}
+
+.fecha-texto {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.nombre-pod {
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-left: 1px solid black;
+}
+
+/* FIN BARRA LATERAL */
+
+/* ÁREA NOTICIAS TOP */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.container-top {
+  position: relative;
+  margin: 30px auto 0 auto;
+}
+
+.image-top img {
+  width: 800px;
+  height: auto;
+}
+
+.title-top {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+  bottom: 3rem;
+  left: 2rem;
+}
+
+.hero-bottomnews {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 10rem;
+}
+
+.news-box {
+  position: relative;
+  display: inline-block;
+}
+
+.titulo-bottomnews {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.texto-bottomnews {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.news-image {
+  border: #b4d9c4 solid 1px;
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.news-image:hover {
+  opacity: 1;
+  border: #69afbf solid 3px;
+}
+
+/* /HERO TOP */
+
+
+
+/*  */
+
+.logo {
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.jumbotron {
+  background-color: #c1fcda;
+}
+
+.title-zima {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.box-pod {
+  background-color: #b4d9c4;
+}
+
+.card-content {
+  padding: 30px 0 30px 30px;
+  font-size: 1rem;
+}
+
+
+
+/* CARDS CONTENIDO */
+
+.card-post {
+  background: blanchedalmond;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.header_article{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+.card-post__hero {
+  background-size: cover;
+  border-bottom: 4px solid #69afbf;
+  height: 200px;
+}
+
+.card-post__category {
+  top: 185px;
+  right: 10px;
+  height: 24px;
+}
+
+.card-post__category a {
+  top: 0;
+  z-index: 2;
+  text-decoration: none;
+  background: #69afbf;
+  border-radius: 17px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 18px;
+  margin-left: 30px;
+  padding: 0 12px;
+  transition: background-color 0.5s ease, box-shadow 0.3s ease,
+    transform 0.2s ease;
+}
+
+.card-post__category a:hover {
+  animation: bounceShadow 1s linear infinite;
+  background: #69afbf;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-post__category a:active {
+  transform: scale(0.85);
+}
+
+.card-post__category span {
+  color: #0d0d0d;
+}
+
+.meta p {
+  font-size: 10px;
+}
+
+span.avatar1 {
+  background: #69afbf;
+  background-image: url(https://s3.us-east-2.amazonaws.com/web-experiments/exp-card-splatoon2-inkling.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.btn-group a {  
+  font-size: 26px;
+  color: #ccc;
+}
+.btn-group .btn-facebook:hover {
+  color: #3b5998;
+}
+.btn-group .btn-twitter:hover {
+  color: #55acee;
+}
+.btn-group .btn-google:hover {
+  color: #dd4b39;
+}
+
+.hero {
+  padding: 3.5rem 0;
+  background-color: black;
+}
+
+/* MEDIAQUERIES */
+
+@media (min-width: 1028px) {
+  .card-post {
+    max-width: 750px;
+  }
+
+  .card-post__hero {
+    height: 350px;
+  }
+
+  .card-post__category {
+    top: 335px;
+  }
+
+  .article-content {
+    padding: 30px 90px;
+    line-height: 1.5;
+  }
+}

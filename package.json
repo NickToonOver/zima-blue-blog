@@ -1,0 +1,31 @@
+{
+  "name": "zima-blue-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build": "purgecss --css  css/styles.css --content index.html -o css/mincss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickToonOver/zima-blue-blog.git"
+  },
+  "author": "Jorgy Sandoval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickToonOver/zima-blue-blog/issues"
+  },
+  "homepage": "https://github.com/NickToonOver/zima-blue-blog#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "hover.css": "^2.3.2"
+  }
+}

@@ -1,0 +1,131 @@
+.logo {
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.jumbotron {
+  background-color: #b4d9c4;
+}
+
+.title-zima {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.box-pod {
+  background-color: #b4d9c4;
+}
+
+.card-content {
+  padding: 30px 0 30px 30px;
+  font-size: 1rem;
+}
+
+.c-zima {
+  padding: 70px 0;
+}
+
+.footer-area {
+  padding: 100px;
+}
+
+.texto-sombreado {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  margin: 1rem auto;
+  background-color: $secondary;
+  min-width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.1;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &__text {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px $dark solid;
+  min-width: 18rem;
+
+  a {
+    text-decoration: none;
+    color: $dark;
+  }
+
+  &__body {
+    h4 {
+      margin: 0.2rem;
+      font-size: 0.7rem;
+      opacity: 0.6;
+      text-transform: uppercase;
+      top: 0;
+    }
+
+    h5 {
+      border-bottom: 1px lightgray solid;
+      font-size: 1rem;
+      margin: 0.3rem;
+      font-size: 1rem;
+    }
+
+    p {
+      line-height: 1;
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  &__boton {
+    display: flex;
+    justify-content: center;
+
+    border-top: 1px lightgray solid;
+    padding: 0.5rem 0;
+  }
+}
+
+.s-carta {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: #0d0d0d;
+  overflow: hidden;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+@media (min-width: 576px) {
+  .carta {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .carta {
+    margin-bottom: 1.2rem;
+  }
+}

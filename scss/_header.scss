@@ -1,0 +1,11 @@
+.logo {
+  font-size: 3rem;
+  font-style: bold;
+  font-weight: 900;
+  text-align: left;
+  color: $primary;
+
+  span {
+    color: $secondary;
+  }
+}
