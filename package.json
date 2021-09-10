@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "build": "purgecss --css  css/styles.css --content index.html -o css/mincss.css"
+    "build": "purgecss --css  ./css/styles.css --content *html ./secciones/*.html --output ./css/mincss.css"
   },
   "repository": {
     "type": "git",
