@@ -1,2 +1,7 @@
 node_modules/
+scss/
+.gitignore
+package-lock.json
+package.json
+
 
